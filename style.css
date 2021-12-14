@@ -1,0 +1,40 @@
+
+    body{
+        background: radial-gradient( black, red, blue); 
+    }
+
+    .homemAranhaDecoracao{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .homemAranhaDecoracao img{
+        width: 600px;
+        height: 600px;
+    }
+
+    .bordaPrincipal{
+        padding: 1em;
+        background-image: url("https://cdn.pixabay.com/photo/2016/03/31/15/04/spider-web-1292978_960_720.png");
+        background-color: white;
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+
+    .cartaoContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;   /* Utiliza 100% da pagina */
+        height: 100vh;  /* Utiliza 100% da pagina */
+    }
+
+    .cartaoTexto{
+        text-align: center;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-size: 40px;
+        color: rgb(44, 29, 38);
+        text-shadow: 5%;
+    }
